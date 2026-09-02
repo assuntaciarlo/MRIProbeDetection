@@ -1,3 +1,3 @@
 # MRI Probe Detection
 
-<img width="1280" height="720" alt="editable_probe_detection_pipeline" src="https://github.com/user-attachments/assets/b49125bd-bd8f-4e61-8265-b9e1bbcbada2" />
+<img width="1280" height="720" alt="pipeline" src="https://github.com/user-attachments/assets/941ba34a-092f-4c89-b99c-da2431c82e49" />

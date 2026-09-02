@@ -1,12 +1,12 @@
 {
-    "surface": "C:/Users/assun/Documents/GitHub/DOTImager/example_data/sub-03/anat/sub-03_standard_SPH.srf",
+    "surface": "C:/Users/assun/Documents/GitHub/MRIProbeDetection/visualization/data/sub-03/sub-03_standard_SPH.srf",
     "snirf": "C:/Users/assun/Documents/GitHub/DOTImager/example_data/sub-03/fNIRS/task-quadrants/2025-08-12_008.snirf",
-    "probe patch": "C:/Users/assun/Documents/GitHub/DOTImager/example_data/sub-03/anat/sub-03_hd-patch.poi",
+    "probe patch": "C:/Users/assun/Documents/GitHub/MRIProbeDetection/visualization/data/sub-03/sub-03_hd-patch.poi",
     "matched ICP probe template": "",
     "use BV Fast curvature": true,
     "decimation_factor": "0",
     "smoothing_iters": "0",
     "curv_perc_thr": "0",
-    "nr_of_neighbors": "26",
+    "nr_of_neighbors": "27",
     "iter": "100"
 }

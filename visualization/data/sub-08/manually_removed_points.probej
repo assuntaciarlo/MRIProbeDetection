@@ -1,0 +1,22 @@
+{
+    "File Version": "0.2",
+    "Space": "BV",
+    "Reference Surface": "C:/Users/assun/Documents/GitHub/MRIProbeDetection/visualization/data/sub-08_standard_SPH.srf",
+    "Source Labels": [],
+    "Detector Labels": [],
+    "Source Coordinates": [],
+    "Detector Coordinates": [],
+    "Anatomical Landmarks": {},
+    "Custom Landmarks": {
+        "1": [
+            57.228790283203125,
+            178.62184143066406,
+            109.32689666748047
+        ],
+        "2": [
+            61.6346435546875,
+            191.09097290039062,
+            141.37159729003906
+        ]
+    }
+}

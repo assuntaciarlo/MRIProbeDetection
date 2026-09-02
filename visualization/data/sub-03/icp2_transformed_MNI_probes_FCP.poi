@@ -1,7 +1,7 @@
 
 FileVersion:                   2
 
-FromMeshFile:                  "C:/Users/assun/Documents/GitHub/DOTImager/example_data/sub-03/anat/sub-03_standard_SPH.srf"
+FromMeshFile:                  "C:/Users/assun/Documents/GitHub/MRIProbeDetection/visualization/data/sub-03/sub-03_standard_SPH.srf"
 
 NrOfMeshVertices:              10242
 
@@ -81,9 +81,9 @@ NrOfVertices: 1
 NameOfPOI:  "S11"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
-LabelVertex:  5302
+LabelVertex:  5275
 NrOfVertices: 1
-5302
+5275
 
 NameOfPOI:  "S12"
 InfoTextFile:  ""
@@ -116,16 +116,16 @@ NrOfVertices: 1
 NameOfPOI:  "S16"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
-LabelVertex:  1220
+LabelVertex:  4807
 NrOfVertices: 1
-1220
+4807
 
 NameOfPOI:  "D1"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
-LabelVertex:  6784
+LabelVertex:  427
 NrOfVertices: 1
-6784
+427
 
 NameOfPOI:  "D2"
 InfoTextFile:  ""
@@ -137,9 +137,9 @@ NrOfVertices: 1
 NameOfPOI:  "D3"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
-LabelVertex:  5138
+LabelVertex:  5137
 NrOfVertices: 1
-5138
+5137
 
 NameOfPOI:  "D4"
 InfoTextFile:  ""
@@ -249,9 +249,9 @@ NrOfVertices: 1
 NameOfPOI:  "D19"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
-LabelVertex:  1264
+LabelVertex:  4985
 NrOfVertices: 1
-1264
+4985
 
 NameOfPOI:  "D20"
 InfoTextFile:  ""
@@ -270,9 +270,9 @@ NrOfVertices: 1
 NameOfPOI:  "D22"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
-LabelVertex:  4880
+LabelVertex:  4879
 NrOfVertices: 1
-4880
+4879
 
 NameOfPOI:  "D23"
 InfoTextFile:  ""

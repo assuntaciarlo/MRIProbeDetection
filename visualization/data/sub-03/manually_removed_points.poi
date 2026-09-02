@@ -1,0 +1,19 @@
+
+FileVersion:                   2
+
+FromMeshFile:                  "C:/Users/assun/Documents/GitHub/MRIProbeDetection/visualization/data/sub-03/sub-03_standard_SPH.srf"
+
+NrOfMeshVertices:              10242
+
+NrOfPOIs:                      1
+
+
+NameOfPOI:  "Point 1"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4673
+NrOfVertices: 1
+4673
+
+
+NrOfPOIMTCs: 0

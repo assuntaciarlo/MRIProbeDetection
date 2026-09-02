@@ -1,0 +1,285 @@
+
+FileVersion:                   2
+
+FromMeshFile:                  "C:/Users/assun/Documents/GitHub/MRIProbeDetection/visualization/data/sub-08_standard_SPH.srf"
+
+NrOfMeshVertices:              10242
+
+NrOfPOIs:                      39
+
+
+NameOfPOI:  "S1"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5073
+NrOfVertices: 1
+5073
+
+NameOfPOI:  "S2"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  1329
+NrOfVertices: 1
+1329
+
+NameOfPOI:  "S3"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5193
+NrOfVertices: 1
+5193
+
+NameOfPOI:  "S4"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  337
+NrOfVertices: 1
+337
+
+NameOfPOI:  "S5"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  1191
+NrOfVertices: 1
+1191
+
+NameOfPOI:  "S6"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  306
+NrOfVertices: 1
+306
+
+NameOfPOI:  "S7"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4665
+NrOfVertices: 1
+4665
+
+NameOfPOI:  "S8"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4657
+NrOfVertices: 1
+4657
+
+NameOfPOI:  "S9"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5086
+NrOfVertices: 1
+5086
+
+NameOfPOI:  "S10"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5230
+NrOfVertices: 1
+5230
+
+NameOfPOI:  "S11"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  1341
+NrOfVertices: 1
+1341
+
+NameOfPOI:  "S12"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5285
+NrOfVertices: 1
+5285
+
+NameOfPOI:  "S13"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4550
+NrOfVertices: 1
+4550
+
+NameOfPOI:  "S14"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  1227
+NrOfVertices: 1
+1227
+
+NameOfPOI:  "S15"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  1241
+NrOfVertices: 1
+1241
+
+NameOfPOI:  "S16"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4887
+NrOfVertices: 1
+4887
+
+NameOfPOI:  "D1"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  6592
+NrOfVertices: 1
+6592
+
+NameOfPOI:  "D2"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5177
+NrOfVertices: 1
+5177
+
+NameOfPOI:  "D3"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5188
+NrOfVertices: 1
+5188
+
+NameOfPOI:  "D4"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  1300
+NrOfVertices: 1
+1300
+
+NameOfPOI:  "D5"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  1176
+NrOfVertices: 1
+1176
+
+NameOfPOI:  "D6"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4714
+NrOfVertices: 1
+4714
+
+NameOfPOI:  "D7"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4675
+NrOfVertices: 1
+4675
+
+NameOfPOI:  "D8"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  314
+NrOfVertices: 1
+314
+
+NameOfPOI:  "D9"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4870
+NrOfVertices: 1
+4870
+
+NameOfPOI:  "D10"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4836
+NrOfVertices: 1
+4836
+
+NameOfPOI:  "D11"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4690
+NrOfVertices: 1
+4690
+
+NameOfPOI:  "D12"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5151
+NrOfVertices: 1
+5151
+
+NameOfPOI:  "D13"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5279
+NrOfVertices: 1
+5279
+
+NameOfPOI:  "D14"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5297
+NrOfVertices: 1
+5297
+
+NameOfPOI:  "D15"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5054
+NrOfVertices: 1
+5054
+
+NameOfPOI:  "D16"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5107
+NrOfVertices: 1
+5107
+
+NameOfPOI:  "D17"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5081
+NrOfVertices: 1
+5081
+
+NameOfPOI:  "D18"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4955
+NrOfVertices: 1
+4955
+
+NameOfPOI:  "D19"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5001
+NrOfVertices: 1
+5001
+
+NameOfPOI:  "D20"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4993
+NrOfVertices: 1
+4993
+
+NameOfPOI:  "D21"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4574
+NrOfVertices: 1
+4574
+
+NameOfPOI:  "D22"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4594
+NrOfVertices: 1
+4594
+
+NameOfPOI:  "D23"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4875
+NrOfVertices: 1
+4875
+
+
+NrOfPOIMTCs: 0

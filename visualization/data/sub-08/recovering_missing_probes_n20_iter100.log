@@ -1,0 +1,917 @@
+=== S2: setup ===
+Initial guess: [220.629  105.1045 175.8183]
+Known distances:    [ 17.6968  18.4853  29.767   30.3364  33.761   44.4888  48.1731  45.3418
+  50.4077  58.0329  60.6014  72.506   74.8937  72.544   75.8945  85.4213
+  89.2392 103.672  100.2278  98.5135]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=1.76762245039  rms_residual_GN=2.487757324
+  iter  2  delta_norm=0.70869123300  rms_residual_GN=2.431169377
+  iter  3  delta_norm=0.30836696831  rms_residual_GN=2.422780344
+  iter  4  delta_norm=0.13654855072  rms_residual_GN=2.421237937
+  iter  5  delta_norm=0.06098065928  rms_residual_GN=2.420938620
+  iter  6  delta_norm=0.02734224921  rms_residual_GN=2.420879167
+  iter  7  delta_norm=0.01228214221  rms_residual_GN=2.420867235
+  iter  8  delta_norm=0.00552174252  rms_residual_GN=2.420864829
+  iter  9  delta_norm=0.00248337185  rms_residual_GN=2.420864343
+  iter 10  delta_norm=0.00111707176  rms_residual_GN=2.420864244
+  iter 11  delta_norm=0.00050252027  rms_residual_GN=2.420864224
+  iter 12  delta_norm=0.00022606901  rms_residual_GN=2.420864220
+  iter 13  delta_norm=0.00010170334  rms_residual_GN=2.420864220
+  iter 14  delta_norm=0.00004575435  rms_residual_GN=2.420864219
+  iter 15  delta_norm=0.00002058406  rms_residual_GN=2.420864219
+  iter 16  delta_norm=0.00000926041  rms_residual_GN=2.420864219
+  iter 17  delta_norm=0.00000416610  rms_residual_GN=2.420864219
+  iter 18  delta_norm=0.00000187426  rms_residual_GN=2.420864219
+  iter 19  delta_norm=0.00000084320  rms_residual_GN=2.420864219
+  iter 20  delta_norm=0.00000037934  rms_residual_GN=2.420864219
+  iter 21  delta_norm=0.00000017066  rms_residual_GN=2.420864219
+  iter 22  delta_norm=0.00000007678  rms_residual_GN=2.420864219
+  iter 23  delta_norm=0.00000003454  rms_residual_GN=2.420864219
+  iter 24  delta_norm=0.00000001554  rms_residual_GN=2.420864219
+  iter 25  delta_norm=0.00000000699  rms_residual_GN=2.420864219
+  iter 26  delta_norm=0.00000000315  rms_residual_GN=2.420864219
+  iter 27  delta_norm=0.00000000141  rms_residual_GN=2.420864219
+  iter 28  delta_norm=0.00000000064  rms_residual_GN=2.420864219
+  iter 29  delta_norm=0.00000000029  rms_residual_GN=2.420864219
+  iter 30  delta_norm=0.00000000013  rms_residual_GN=2.420864219
+  iter 31  delta_norm=0.00000000006  rms_residual_GN=2.420864219
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=3.210434378  step=0.663928257 rms_residuals_MCR=2.983853476
+  iter  2  rms_residual_GN=2.983853476  step=0.241496074 rms_residuals_MCR=2.912376046
+  iter  3  rms_residual_GN=2.912376046  step=0.088835753 rms_residuals_MCR=2.887729719
+  iter  4  rms_residual_GN=2.887729719  step=0.032832453 rms_residuals_MCR=2.878868468
+  iter  5  rms_residual_GN=2.878868468  step=0.012161800 rms_residuals_MCR=2.875626463
+  iter  6  rms_residual_GN=2.875626463  step=0.004510706 rms_residuals_MCR=2.874431752
+  iter  7  rms_residual_GN=2.874431752  step=0.001674374 rms_residuals_MCR=2.873990083
+  iter  8  rms_residual_GN=2.873990083  step=0.000621905 rms_residuals_MCR=2.873826540
+  iter  9  rms_residual_GN=2.873826540  step=0.000231100 rms_residuals_MCR=2.873765922
+  iter 10  rms_residual_GN=2.873765922  step=0.000085909 rms_residuals_MCR=2.873743439
+  iter 11  rms_residual_GN=2.873743439  step=0.000031946 rms_residuals_MCR=2.873735095
+  iter 12  rms_residual_GN=2.873735095  step=0.000011882 rms_residuals_MCR=2.873731997
+  iter 13  rms_residual_GN=2.873731997  step=0.000004421 rms_residuals_MCR=2.873730846
+  iter 14  rms_residual_GN=2.873730846  step=0.000001645 rms_residuals_MCR=2.873730418
+  iter 15  rms_residual_GN=2.873730418  step=0.000000612 rms_residuals_MCR=2.873730259
+  iter 16  rms_residual_GN=2.873730259  step=0.000000228 rms_residuals_MCR=2.873730200
+  iter 17  rms_residual_GN=2.873730200  step=0.000000085 rms_residuals_MCR=2.873730178
+  iter 18  rms_residual_GN=2.873730178  step=0.000000032 rms_residuals_MCR=2.873730170
+  iter 19  rms_residual_GN=2.873730170  step=0.000000012 rms_residuals_MCR=2.873730167
+  iter 20  rms_residual_GN=2.873730167  step=0.000000004 rms_residuals_MCR=2.873730166
+Done.
+Final RMS distance residual   : 2.873730
+occluded anchors: 1/20
+
+=== S3: setup ===
+Initial guess: [230.4952 103.5107 160.9973]
+Known distances:    [17.1073 17.0918 30.5236 30.327  29.5291 34.1318 36.0815 44.7344 46.1285
+ 44.5848 56.5868 59.5545 60.4972 58.4485 61.2761 74.833  73.4798 90.7542
+ 87.4894 86.8964]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=1.23854788948  rms_residual_GN=2.464527312
+  iter  2  delta_norm=0.34941327497  rms_residual_GN=2.357707311
+  iter  3  delta_norm=0.17744223823  rms_residual_GN=2.354779416
+  iter  4  delta_norm=0.09048530061  rms_residual_GN=2.354128321
+  iter  5  delta_norm=0.04586719993  rms_residual_GN=2.353958998
+  iter  6  delta_norm=0.02318330106  rms_residual_GN=2.353915378
+  iter  7  delta_norm=0.01170127948  rms_residual_GN=2.353904218
+  iter  8  delta_norm=0.00590178187  rms_residual_GN=2.353901372
+  iter  9  delta_norm=0.00297562128  rms_residual_GN=2.353900648
+  iter 10  delta_norm=0.00150000897  rms_residual_GN=2.353900464
+  iter 11  delta_norm=0.00075608492  rms_residual_GN=2.353900417
+  iter 12  delta_norm=0.00038108987  rms_residual_GN=2.353900406
+  iter 13  delta_norm=0.00019207648  rms_residual_GN=2.353900403
+  iter 14  delta_norm=0.00009680904  rms_residual_GN=2.353900402
+  iter 15  delta_norm=0.00004879273  rms_residual_GN=2.353900402
+  iter 16  delta_norm=0.00002459195  rms_residual_GN=2.353900402
+  iter 17  delta_norm=0.00001239454  rms_residual_GN=2.353900401
+  iter 18  delta_norm=0.00000624694  rms_residual_GN=2.353900401
+  iter 19  delta_norm=0.00000314850  rms_residual_GN=2.353900401
+  iter 20  delta_norm=0.00000158687  rms_residual_GN=2.353900401
+  iter 21  delta_norm=0.00000079979  rms_residual_GN=2.353900401
+  iter 22  delta_norm=0.00000040310  rms_residual_GN=2.353900401
+  iter 23  delta_norm=0.00000020317  rms_residual_GN=2.353900401
+  iter 24  delta_norm=0.00000010240  rms_residual_GN=2.353900401
+  iter 25  delta_norm=0.00000005161  rms_residual_GN=2.353900401
+  iter 26  delta_norm=0.00000002601  rms_residual_GN=2.353900401
+  iter 27  delta_norm=0.00000001311  rms_residual_GN=2.353900401
+  iter 28  delta_norm=0.00000000661  rms_residual_GN=2.353900401
+  iter 29  delta_norm=0.00000000333  rms_residual_GN=2.353900401
+  iter 30  delta_norm=0.00000000168  rms_residual_GN=2.353900401
+  iter 31  delta_norm=0.00000000085  rms_residual_GN=2.353900401
+  iter 32  delta_norm=0.00000000043  rms_residual_GN=2.353900401
+  iter 33  delta_norm=0.00000000021  rms_residual_GN=2.353900401
+  iter 34  delta_norm=0.00000000011  rms_residual_GN=2.353900401
+  iter 35  delta_norm=0.00000000005  rms_residual_GN=2.353900401
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.563310838  step=0.324498889 rms_residuals_MCR=2.499070708
+  iter  2  rms_residual_GN=2.499070708  step=0.122206128 rms_residuals_MCR=2.479424644
+  iter  3  rms_residual_GN=2.479424644  step=0.047036938 rms_residuals_MCR=2.472587273
+  iter  4  rms_residual_GN=2.472587273  step=0.018322401 rms_residuals_MCR=2.470049714
+  iter  5  rms_residual_GN=2.470049714  step=0.007185350 rms_residuals_MCR=2.469079330
+  iter  6  rms_residual_GN=2.469079330  step=0.002828696 rms_residuals_MCR=2.468702899
+  iter  7  rms_residual_GN=2.468702899  step=0.001116089 rms_residuals_MCR=2.468555792
+  iter  8  rms_residual_GN=2.468555792  step=0.000440950 rms_residuals_MCR=2.468498062
+  iter  9  rms_residual_GN=2.468498062  step=0.000174353 rms_residuals_MCR=2.468475347
+  iter 10  rms_residual_GN=2.468475347  step=0.000068974 rms_residuals_MCR=2.468466394
+  iter 11  rms_residual_GN=2.468466394  step=0.000027295 rms_residuals_MCR=2.468462861
+  iter 12  rms_residual_GN=2.468462861  step=0.000010803 rms_residuals_MCR=2.468461465
+  iter 13  rms_residual_GN=2.468461465  step=0.000004277 rms_residuals_MCR=2.468460913
+  iter 14  rms_residual_GN=2.468460913  step=0.000001693 rms_residuals_MCR=2.468460695
+  iter 15  rms_residual_GN=2.468460695  step=0.000000670 rms_residuals_MCR=2.468460609
+  iter 16  rms_residual_GN=2.468460609  step=0.000000265 rms_residuals_MCR=2.468460575
+  iter 17  rms_residual_GN=2.468460575  step=0.000000105 rms_residuals_MCR=2.468460561
+  iter 18  rms_residual_GN=2.468460561  step=0.000000042 rms_residuals_MCR=2.468460556
+  iter 19  rms_residual_GN=2.468460556  step=0.000000016 rms_residuals_MCR=2.468460554
+  iter 20  rms_residual_GN=2.468460554  step=0.000000007 rms_residuals_MCR=2.468460553
+Done.
+Final RMS distance residual   : 2.468461
+occluded anchors: 1/20
+
+=== S4: setup ===
+Initial guess: [236.0167 102.7062 144.6867]
+Known distances:    [17.16   17.4695 16.7556 30.1927 29.0813 34.1122 35.8111 45.4729 44.2402
+ 44.8247 47.1086 45.0573 52.4484 51.8622 59.9957 62.025  66.9458 76.7772
+ 73.9691 74.9273]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=1.90519303929  rms_residual_GN=2.150509142
+  iter  2  delta_norm=0.15555050145  rms_residual_GN=1.995489599
+  iter  3  delta_norm=0.01109757365  rms_residual_GN=1.994802196
+  iter  4  delta_norm=0.00078164367  rms_residual_GN=1.994800077
+  iter  5  delta_norm=0.00005724775  rms_residual_GN=1.994800066
+  iter  6  delta_norm=0.00000418046  rms_residual_GN=1.994800066
+  iter  7  delta_norm=0.00000030615  rms_residual_GN=1.994800066
+  iter  8  delta_norm=0.00000002243  rms_residual_GN=1.994800066
+  iter  9  delta_norm=0.00000000164  rms_residual_GN=1.994800066
+  iter 10  delta_norm=0.00000000012  rms_residual_GN=1.994800066
+  iter 11  delta_norm=0.00000000001  rms_residual_GN=1.994800066
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.140545000  step=0.021357573 rms_residuals_MCR=2.142773688
+  iter  2  rms_residual_GN=2.142773688  step=0.005960787 rms_residuals_MCR=2.143443091
+  iter  3  rms_residual_GN=2.143443091  step=0.001675474 rms_residuals_MCR=2.143641482
+  iter  4  rms_residual_GN=2.143641482  step=0.000474560 rms_residuals_MCR=2.143700237
+  iter  5  rms_residual_GN=2.143700237  step=0.000135480 rms_residuals_MCR=2.143717678
+  iter  6  rms_residual_GN=2.143717678  step=0.000038984 rms_residuals_MCR=2.143722871
+  iter  7  rms_residual_GN=2.143722871  step=0.000011304 rms_residuals_MCR=2.143724422
+  iter  8  rms_residual_GN=2.143724422  step=0.000003302 rms_residuals_MCR=2.143724886
+  iter  9  rms_residual_GN=2.143724886  step=0.000000971 rms_residuals_MCR=2.143725025
+  iter 10  rms_residual_GN=2.143725025  step=0.000000287 rms_residuals_MCR=2.143725067
+  iter 11  rms_residual_GN=2.143725067  step=0.000000085 rms_residuals_MCR=2.143725080
+  iter 12  rms_residual_GN=2.143725080  step=0.000000026 rms_residuals_MCR=2.143725084
+  iter 13  rms_residual_GN=2.143725084  step=0.000000008 rms_residuals_MCR=2.143725085
+Done.
+Final RMS distance residual   : 2.143725
+occluded anchors: 1/20
+
+=== S5: setup ===
+Initial guess: [237.789  101.675  127.5595]
+Known distances:    [16.8138 16.8017 30.2356 29.0882 29.527  28.8282 30.3748 35.488  34.4604
+ 44.666  47.1082 46.5772 53.7088 52.673  62.0609 60.7321 60.3493 63.7151
+ 68.1856 78.873 ]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=2.32562790032  rms_residual_GN=2.230809315
+  iter  2  delta_norm=0.33353286598  rms_residual_GN=2.035480822
+  iter  3  delta_norm=0.03247071542  rms_residual_GN=2.033391507
+  iter  4  delta_norm=0.00351961898  rms_residual_GN=2.033373514
+  iter  5  delta_norm=0.00037834515  rms_residual_GN=2.033373301
+  iter  6  delta_norm=0.00004070600  rms_residual_GN=2.033373299
+  iter  7  delta_norm=0.00000437908  rms_residual_GN=2.033373299
+  iter  8  delta_norm=0.00000047110  rms_residual_GN=2.033373299
+  iter  9  delta_norm=0.00000005068  rms_residual_GN=2.033373299
+  iter 10  delta_norm=0.00000000545  rms_residual_GN=2.033373299
+  iter 11  delta_norm=0.00000000059  rms_residual_GN=2.033373299
+  iter 12  delta_norm=0.00000000006  rms_residual_GN=2.033373299
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.142837853  step=0.026647716 rms_residuals_MCR=2.145739272
+  iter  2  rms_residual_GN=2.145739272  step=0.007171652 rms_residuals_MCR=2.146543628
+  iter  3  rms_residual_GN=2.146543628  step=0.001932497 rms_residuals_MCR=2.146762557
+  iter  4  rms_residual_GN=2.146762557  step=0.000521636 rms_residuals_MCR=2.146821915
+  iter  5  rms_residual_GN=2.146821915  step=0.000141089 rms_residuals_MCR=2.146838007
+  iter  6  rms_residual_GN=2.146838007  step=0.000038248 rms_residuals_MCR=2.146842375
+  iter  7  rms_residual_GN=2.146842375  step=0.000010395 rms_residuals_MCR=2.146843562
+  iter  8  rms_residual_GN=2.146843562  step=0.000002833 rms_residuals_MCR=2.146843885
+  iter  9  rms_residual_GN=2.146843885  step=0.000000774 rms_residuals_MCR=2.146843973
+  iter 10  rms_residual_GN=2.146843973  step=0.000000212 rms_residuals_MCR=2.146843997
+  iter 11  rms_residual_GN=2.146843997  step=0.000000058 rms_residuals_MCR=2.146844004
+  iter 12  rms_residual_GN=2.146844004  step=0.000000016 rms_residuals_MCR=2.146844006
+  iter 13  rms_residual_GN=2.146844006  step=0.000000004 rms_residuals_MCR=2.146844006
+Done.
+Final RMS distance residual   : 2.146844
+occluded anchors: 0/20
+
+=== S6: setup ===
+Initial guess: [235.8232 100.866  111.16  ]
+Known distances:    [17.0808 17.3887 17.5038 28.5187 30.2123 30.149  34.9085 47.4876 46.047
+ 43.2395 47.7769 45.2035 47.0589 46.6378 54.4765 60.0157 63.2319 74.9441
+ 82.4494 90.5693]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=1.91156510354  rms_residual_GN=2.153883241
+  iter  2  delta_norm=0.13547177477  rms_residual_GN=2.028107659
+  iter  3  delta_norm=0.00398791975  rms_residual_GN=2.027648720
+  iter  4  delta_norm=0.00013037066  rms_residual_GN=2.027648438
+  iter  5  delta_norm=0.00000428347  rms_residual_GN=2.027648437
+  iter  6  delta_norm=0.00000014072  rms_residual_GN=2.027648437
+  iter  7  delta_norm=0.00000000462  rms_residual_GN=2.027648437
+  iter  8  delta_norm=0.00000000015  rms_residual_GN=2.027648437
+  iter  9  delta_norm=0.00000000000  rms_residual_GN=2.027648437
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.207656290  step=0.027163545 rms_residuals_MCR=2.208113043
+  iter  2  rms_residual_GN=2.208113043  step=0.007826011 rms_residuals_MCR=2.208277087
+  iter  3  rms_residual_GN=2.208277087  step=0.002254826 rms_residuals_MCR=2.208328459
+  iter  4  rms_residual_GN=2.208328459  step=0.000649692 rms_residuals_MCR=2.208344005
+  iter  5  rms_residual_GN=2.208344005  step=0.000187209 rms_residuals_MCR=2.208348661
+  iter  6  rms_residual_GN=2.208348661  step=0.000053947 rms_residuals_MCR=2.208350051
+  iter  7  rms_residual_GN=2.208350051  step=0.000015546 rms_residuals_MCR=2.208350464
+  iter  8  rms_residual_GN=2.208350464  step=0.000004480 rms_residuals_MCR=2.208350587
+  iter  9  rms_residual_GN=2.208350587  step=0.000001291 rms_residuals_MCR=2.208350624
+  iter 10  rms_residual_GN=2.208350624  step=0.000000372 rms_residuals_MCR=2.208350635
+  iter 11  rms_residual_GN=2.208350635  step=0.000000107 rms_residuals_MCR=2.208350638
+  iter 12  rms_residual_GN=2.208350638  step=0.000000031 rms_residuals_MCR=2.208350639
+  iter 13  rms_residual_GN=2.208350639  step=0.000000009 rms_residuals_MCR=2.208350639
+Done.
+Final RMS distance residual   : 2.208351
+occluded anchors: 0/20
+
+=== S7: setup ===
+Initial guess: [229.7309 100.6988  95.4031]
+Known distances:    [ 16.7076  16.605   18.1705  32.3443  29.5807  33.8638  36.4188  43.3502
+  45.0885  45.8216  47.5476  51.4291  58.7449  58.2077  60.3119  74.1612
+  73.3798  88.5061  95.714  101.7501]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=2.11293235053  rms_residual_GN=2.262206416
+  iter  2  delta_norm=0.05935338625  rms_residual_GN=2.171789590
+  iter  3  delta_norm=0.00230325666  rms_residual_GN=2.171494741
+  iter  4  delta_norm=0.00012855116  rms_residual_GN=2.171494575
+  iter  5  delta_norm=0.00000645003  rms_residual_GN=2.171494575
+  iter  6  delta_norm=0.00000032406  rms_residual_GN=2.171494575
+  iter  7  delta_norm=0.00000001614  rms_residual_GN=2.171494575
+  iter  8  delta_norm=0.00000000080  rms_residual_GN=2.171494575
+  iter  9  delta_norm=0.00000000004  rms_residual_GN=2.171494575
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.272154536  step=0.027107110 rms_residuals_MCR=2.268175491
+  iter  2  rms_residual_GN=2.268175491  step=0.008113600 rms_residuals_MCR=2.267008264
+  iter  3  rms_residual_GN=2.267008264  step=0.002440285 rms_residuals_MCR=2.266659623
+  iter  4  rms_residual_GN=2.266659623  step=0.000737060 rms_residuals_MCR=2.266554708
+  iter  5  rms_residual_GN=2.266554708  step=0.000223490 rms_residuals_MCR=2.266523005
+  iter  6  rms_residual_GN=2.266523005  step=0.000068012 rms_residuals_MCR=2.266513396
+  iter  7  rms_residual_GN=2.266513396  step=0.000020767 rms_residuals_MCR=2.266510475
+  iter  8  rms_residual_GN=2.266510475  step=0.000006361 rms_residuals_MCR=2.266509585
+  iter  9  rms_residual_GN=2.266509585  step=0.000001954 rms_residuals_MCR=2.266509314
+  iter 10  rms_residual_GN=2.266509314  step=0.000000602 rms_residuals_MCR=2.266509230
+  iter 11  rms_residual_GN=2.266509230  step=0.000000186 rms_residuals_MCR=2.266509205
+  iter 12  rms_residual_GN=2.266509205  step=0.000000057 rms_residuals_MCR=2.266509197
+  iter 13  rms_residual_GN=2.266509197  step=0.000000018 rms_residuals_MCR=2.266509195
+  iter 14  rms_residual_GN=2.266509195  step=0.000000006 rms_residuals_MCR=2.266509194
+Done.
+Final RMS distance residual   : 2.266509
+occluded anchors: 1/20
+
+=== S8: setup ===
+Initial guess: [219.023  100.2585  80.9373]
+Known distances:    [ 18.5122  17.3521  29.1899  30.2706  29.7159  44.9843  45.684   45.85
+  50.8284  59.0673  58.8308  60.9735  73.0248  73.2957  75.812   86.5082
+  87.3135 101.3489 108.1071 112.7455]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=2.48987332867  rms_residual_GN=2.297640514
+  iter  2  delta_norm=0.56008322989  rms_residual_GN=2.210766730
+  iter  3  delta_norm=0.11736385027  rms_residual_GN=2.206586092
+  iter  4  delta_norm=0.02488678971  rms_residual_GN=2.206410356
+  iter  5  delta_norm=0.00527160259  rms_residual_GN=2.206402499
+  iter  6  delta_norm=0.00111579082  rms_residual_GN=2.206402146
+  iter  7  delta_norm=0.00023612054  rms_residual_GN=2.206402131
+  iter  8  delta_norm=0.00004996480  rms_residual_GN=2.206402130
+  iter  9  delta_norm=0.00001057280  rms_residual_GN=2.206402130
+  iter 10  delta_norm=0.00000223725  rms_residual_GN=2.206402130
+  iter 11  delta_norm=0.00000047341  rms_residual_GN=2.206402130
+  iter 12  delta_norm=0.00000010018  rms_residual_GN=2.206402130
+  iter 13  delta_norm=0.00000002120  rms_residual_GN=2.206402130
+  iter 14  delta_norm=0.00000000449  rms_residual_GN=2.206402130
+  iter 15  delta_norm=0.00000000095  rms_residual_GN=2.206402130
+  iter 16  delta_norm=0.00000000020  rms_residual_GN=2.206402130
+  iter 17  delta_norm=0.00000000004  rms_residual_GN=2.206402130
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.286963366  step=0.103013748 rms_residuals_MCR=2.271892717
+  iter  2  rms_residual_GN=2.271892717  step=0.035622996 rms_residuals_MCR=2.267133624
+  iter  3  rms_residual_GN=2.267133624  step=0.012347840 rms_residuals_MCR=2.265539667
+  iter  4  rms_residual_GN=2.265539667  step=0.004292676 rms_residuals_MCR=2.264992637
+  iter  5  rms_residual_GN=2.264992637  step=0.001496605 rms_residuals_MCR=2.264802935
+  iter  6  rms_residual_GN=2.264802935  step=0.000523129 rms_residuals_MCR=2.264736807
+  iter  7  rms_residual_GN=2.264736807  step=0.000183272 rms_residuals_MCR=2.264713684
+  iter  8  rms_residual_GN=2.264713684  step=0.000064333 rms_residuals_MCR=2.264705580
+  iter  9  rms_residual_GN=2.264705580  step=0.000022621 rms_residuals_MCR=2.264702734
+  iter 10  rms_residual_GN=2.264702734  step=0.000007966 rms_residuals_MCR=2.264701733
+  iter 11  rms_residual_GN=2.264701733  step=0.000002808 rms_residuals_MCR=2.264701381
+  iter 12  rms_residual_GN=2.264701381  step=0.000000991 rms_residuals_MCR=2.264701257
+  iter 13  rms_residual_GN=2.264701257  step=0.000000350 rms_residuals_MCR=2.264701213
+  iter 14  rms_residual_GN=2.264701213  step=0.000000124 rms_residuals_MCR=2.264701198
+  iter 15  rms_residual_GN=2.264701198  step=0.000000044 rms_residuals_MCR=2.264701192
+  iter 16  rms_residual_GN=2.264701192  step=0.000000016 rms_residuals_MCR=2.264701190
+  iter 17  rms_residual_GN=2.264701190  step=0.000000005 rms_residuals_MCR=2.264701189
+Done.
+Final RMS distance residual   : 2.264701
+occluded anchors: 1/20
+
+=== S9: setup ===
+Initial guess: [203.2846 136.7117 187.9788]
+Known distances:    [ 16.4988  30.6387  37.8382  45.8305  47.503   50.5855  54.245   65.7554
+  69.8694  77.8133  76.7238  80.1924  84.7829  90.5901  93.8363 101.6213
+ 103.2701 110.0503 113.3768 117.2106]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=2.56941128142  rms_residual_GN=1.783179588
+  iter  2  delta_norm=0.27944225784  rms_residual_GN=1.597864732
+  iter  3  delta_norm=0.03804267439  rms_residual_GN=1.595800941
+  iter  4  delta_norm=0.00521094222  rms_residual_GN=1.595775470
+  iter  5  delta_norm=0.00071235072  rms_residual_GN=1.595775000
+  iter  6  delta_norm=0.00009735715  rms_residual_GN=1.595774991
+  iter  7  delta_norm=0.00001330547  rms_residual_GN=1.595774991
+  iter  8  delta_norm=0.00000181841  rms_residual_GN=1.595774991
+  iter  9  delta_norm=0.00000024851  rms_residual_GN=1.595774991
+  iter 10  delta_norm=0.00000003396  rms_residual_GN=1.595774991
+  iter 11  delta_norm=0.00000000464  rms_residual_GN=1.595774991
+  iter 12  delta_norm=0.00000000063  rms_residual_GN=1.595774991
+  iter 13  delta_norm=0.00000000009  rms_residual_GN=1.595774991
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=1.859777306  step=0.056111302 rms_residuals_MCR=1.841755227
+  iter  2  rms_residual_GN=1.841755227  step=0.018634245 rms_residuals_MCR=1.835922066
+  iter  3  rms_residual_GN=1.835922066  step=0.006188105 rms_residuals_MCR=1.834001651
+  iter  4  rms_residual_GN=1.834001651  step=0.002055418 rms_residuals_MCR=1.833365566
+  iter  5  rms_residual_GN=1.833365566  step=0.000682910 rms_residuals_MCR=1.833154420
+  iter  6  rms_residual_GN=1.833154420  step=0.000226957 rms_residuals_MCR=1.833084271
+  iter  7  rms_residual_GN=1.833084271  step=0.000075445 rms_residuals_MCR=1.833060956
+  iter  8  rms_residual_GN=1.833060956  step=0.000025084 rms_residuals_MCR=1.833053205
+  iter  9  rms_residual_GN=1.833053205  step=0.000008342 rms_residuals_MCR=1.833050628
+  iter 10  rms_residual_GN=1.833050628  step=0.000002775 rms_residuals_MCR=1.833049771
+  iter 11  rms_residual_GN=1.833049771  step=0.000000923 rms_residuals_MCR=1.833049486
+  iter 12  rms_residual_GN=1.833049486  step=0.000000307 rms_residuals_MCR=1.833049391
+  iter 13  rms_residual_GN=1.833049391  step=0.000000102 rms_residuals_MCR=1.833049359
+  iter 14  rms_residual_GN=1.833049359  step=0.000000034 rms_residuals_MCR=1.833049349
+  iter 15  rms_residual_GN=1.833049349  step=0.000000011 rms_residuals_MCR=1.833049345
+  iter 16  rms_residual_GN=1.833049345  step=0.000000004 rms_residuals_MCR=1.833049344
+Done.
+Final RMS distance residual   : 1.833049
+occluded anchors: 0/20
+
+=== S10: setup ===
+Initial guess: [218.5429 134.8491 175.775 ]
+Known distances:    [ 18.5611  20.4627  29.4698  33.227   32.5992  35.6884  45.1148  53.1216
+  52.2276  60.8582  63.5308  63.0616  68.322   75.9566  77.9674  87.4491
+  90.2989  96.9892 100.1714 104.8426]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=1.78260607353  rms_residual_GN=1.877188378
+  iter  2  delta_norm=0.48892952814  rms_residual_GN=1.711762460
+  iter  3  delta_norm=0.18151462823  rms_residual_GN=1.706115303
+  iter  4  delta_norm=0.06856772057  rms_residual_GN=1.705416178
+  iter  5  delta_norm=0.02585725651  rms_residual_GN=1.705316638
+  iter  6  delta_norm=0.00974370118  rms_residual_GN=1.705302463
+  iter  7  delta_norm=0.00367083802  rms_residual_GN=1.705300449
+  iter  8  delta_norm=0.00138284597  rms_residual_GN=1.705300163
+  iter  9  delta_norm=0.00052092011  rms_residual_GN=1.705300122
+  iter 10  delta_norm=0.00019622955  rms_residual_GN=1.705300116
+  iter 11  delta_norm=0.00007391902  rms_residual_GN=1.705300115
+  iter 12  delta_norm=0.00002784501  rms_residual_GN=1.705300115
+  iter 13  delta_norm=0.00001048911  rms_residual_GN=1.705300115
+  iter 14  delta_norm=0.00000395120  rms_residual_GN=1.705300115
+  iter 15  delta_norm=0.00000148840  rms_residual_GN=1.705300115
+  iter 16  delta_norm=0.00000056068  rms_residual_GN=1.705300115
+  iter 17  delta_norm=0.00000021120  rms_residual_GN=1.705300115
+  iter 18  delta_norm=0.00000007956  rms_residual_GN=1.705300115
+  iter 19  delta_norm=0.00000002997  rms_residual_GN=1.705300115
+  iter 20  delta_norm=0.00000001129  rms_residual_GN=1.705300115
+  iter 21  delta_norm=0.00000000425  rms_residual_GN=1.705300115
+  iter 22  delta_norm=0.00000000160  rms_residual_GN=1.705300115
+  iter 23  delta_norm=0.00000000060  rms_residual_GN=1.705300115
+  iter 24  delta_norm=0.00000000023  rms_residual_GN=1.705300115
+  iter 25  delta_norm=0.00000000009  rms_residual_GN=1.705300115
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=1.712139846  step=0.043988438 rms_residuals_MCR=1.709902676
+  iter  2  rms_residual_GN=1.709902676  step=0.014938770 rms_residuals_MCR=1.709283401
+  iter  3  rms_residual_GN=1.709283401  step=0.005109839 rms_residuals_MCR=1.709089361
+  iter  4  rms_residual_GN=1.709089361  step=0.001761344 rms_residuals_MCR=1.709025242
+  iter  5  rms_residual_GN=1.709025242  step=0.000611870 rms_residuals_MCR=1.709003574
+  iter  6  rms_residual_GN=1.709003574  step=0.000214170 rms_residuals_MCR=1.708996172
+  iter  7  rms_residual_GN=1.708996172  step=0.000075502 rms_residuals_MCR=1.708993625
+  iter  8  rms_residual_GN=1.708993625  step=0.000026792 rms_residuals_MCR=1.708992744
+  iter  9  rms_residual_GN=1.708992744  step=0.000009564 rms_residuals_MCR=1.708992438
+  iter 10  rms_residual_GN=1.708992438  step=0.000003432 rms_residuals_MCR=1.708992331
+  iter 11  rms_residual_GN=1.708992331  step=0.000001237 rms_residuals_MCR=1.708992293
+  iter 12  rms_residual_GN=1.708992293  step=0.000000448 rms_residuals_MCR=1.708992280
+  iter 13  rms_residual_GN=1.708992280  step=0.000000162 rms_residuals_MCR=1.708992275
+  iter 14  rms_residual_GN=1.708992275  step=0.000000059 rms_residuals_MCR=1.708992273
+  iter 15  rms_residual_GN=1.708992273  step=0.000000022 rms_residuals_MCR=1.708992273
+  iter 16  rms_residual_GN=1.708992273  step=0.000000008 rms_residuals_MCR=1.708992273
+Done.
+Final RMS distance residual   : 1.708992
+occluded anchors: 0/20
+
+=== S15: setup ===
+Initial guess: [227.6475 130.4281  93.229 ]
+Known distances:    [ 18.0041  18.2487  17.5786  18.1389  19.5562  31.4803  30.1036  29.9845
+  35.2066  45.4331  45.6413  51.6255  61.1939  61.4854  61.4057  67.6731
+  72.4073  92.3461  98.1495 100.1497]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=2.17341821783  rms_residual_GN=2.369600339
+  iter  2  delta_norm=0.08666300311  rms_residual_GN=2.248460215
+  iter  3  delta_norm=0.00208039915  rms_residual_GN=2.248044965
+  iter  4  delta_norm=0.00003606035  rms_residual_GN=2.248044886
+  iter  5  delta_norm=0.00000168756  rms_residual_GN=2.248044886
+  iter  6  delta_norm=0.00000004551  rms_residual_GN=2.248044886
+  iter  7  delta_norm=0.00000000186  rms_residual_GN=2.248044886
+  iter  8  delta_norm=0.00000000006  rms_residual_GN=2.248044886
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.782144654  step=0.038331612 rms_residuals_MCR=2.770929507
+  iter  2  rms_residual_GN=2.770929507  step=0.011013161 rms_residuals_MCR=2.767743720
+  iter  3  rms_residual_GN=2.767743720  step=0.003166420 rms_residuals_MCR=2.766830795
+  iter  4  rms_residual_GN=2.766830795  step=0.000910567 rms_residuals_MCR=2.766568516
+  iter  5  rms_residual_GN=2.766568516  step=0.000261867 rms_residuals_MCR=2.766493109
+  iter  6  rms_residual_GN=2.766493109  step=0.000075310 rms_residuals_MCR=2.766471424
+  iter  7  rms_residual_GN=2.766471424  step=0.000021659 rms_residuals_MCR=2.766465188
+  iter  8  rms_residual_GN=2.766465188  step=0.000006229 rms_residuals_MCR=2.766463394
+  iter  9  rms_residual_GN=2.766463394  step=0.000001791 rms_residuals_MCR=2.766462879
+  iter 10  rms_residual_GN=2.766462879  step=0.000000515 rms_residuals_MCR=2.766462730
+  iter 11  rms_residual_GN=2.766462730  step=0.000000148 rms_residuals_MCR=2.766462688
+  iter 12  rms_residual_GN=2.766462688  step=0.000000043 rms_residuals_MCR=2.766462675
+  iter 13  rms_residual_GN=2.766462675  step=0.000000012 rms_residuals_MCR=2.766462672
+  iter 14  rms_residual_GN=2.766462672  step=0.000000004 rms_residuals_MCR=2.766462671
+Done.
+Final RMS distance residual   : 2.766463
+occluded anchors: 1/20
+
+=== D2: setup ===
+Initial guess: [223.4047  89.8686 167.8573]
+Known distances:    [17.1966 17.6083 33.7849 30.8904 33.5091 45.1177 50.4544 60.1631 57.5055
+ 61.2081 64.6542 64.3671 71.6138 72.2446 79.1558 76.4478 87.3087 98.8552
+ 97.9704 99.1753]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=2.41917897932  rms_residual_GN=2.630743461
+  iter  2  delta_norm=0.91912597733  rms_residual_GN=2.521813251
+  iter  3  delta_norm=0.32754806319  rms_residual_GN=2.509835542
+  iter  4  delta_norm=0.11245889574  rms_residual_GN=2.508349467
+  iter  5  delta_norm=0.03814636150  rms_residual_GN=2.508175904
+  iter  6  delta_norm=0.01288659324  rms_residual_GN=2.508155993
+  iter  7  delta_norm=0.00434731627  rms_residual_GN=2.508153723
+  iter  8  delta_norm=0.00146588788  rms_residual_GN=2.508153464
+  iter  9  delta_norm=0.00049421002  rms_residual_GN=2.508153435
+  iter 10  delta_norm=0.00016660927  rms_residual_GN=2.508153432
+  iter 11  delta_norm=0.00005616671  rms_residual_GN=2.508153431
+  iter 12  delta_norm=0.00001893460  rms_residual_GN=2.508153431
+  iter 13  delta_norm=0.00000638311  rms_residual_GN=2.508153431
+  iter 14  delta_norm=0.00000215183  rms_residual_GN=2.508153431
+  iter 15  delta_norm=0.00000072541  rms_residual_GN=2.508153431
+  iter 16  delta_norm=0.00000024455  rms_residual_GN=2.508153431
+  iter 17  delta_norm=0.00000008244  rms_residual_GN=2.508153431
+  iter 18  delta_norm=0.00000002779  rms_residual_GN=2.508153431
+  iter 19  delta_norm=0.00000000937  rms_residual_GN=2.508153431
+  iter 20  delta_norm=0.00000000316  rms_residual_GN=2.508153431
+  iter 21  delta_norm=0.00000000106  rms_residual_GN=2.508153431
+  iter 22  delta_norm=0.00000000036  rms_residual_GN=2.508153431
+  iter 23  delta_norm=0.00000000012  rms_residual_GN=2.508153431
+  iter 24  delta_norm=0.00000000004  rms_residual_GN=2.508153431
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=3.104747642  step=0.479407736 rms_residuals_MCR=2.940932082
+  iter  2  rms_residual_GN=2.940932082  step=0.151533680 rms_residuals_MCR=2.895659788
+  iter  3  rms_residual_GN=2.895659788  step=0.048626657 rms_residuals_MCR=2.881818899
+  iter  4  rms_residual_GN=2.881818899  step=0.015770074 rms_residuals_MCR=2.877405853
+  iter  5  rms_residual_GN=2.877405853  step=0.005161805 rms_residuals_MCR=2.875974268
+  iter  6  rms_residual_GN=2.875974268  step=0.001704415 rms_residuals_MCR=2.875505834
+  iter  7  rms_residual_GN=2.875505834  step=0.000567544 rms_residuals_MCR=2.875351668
+  iter  8  rms_residual_GN=2.875351668  step=0.000190487 rms_residuals_MCR=2.875300686
+  iter  9  rms_residual_GN=2.875300686  step=0.000064401 rms_residuals_MCR=2.875283751
+  iter 10  rms_residual_GN=2.875283751  step=0.000021915 rms_residuals_MCR=2.875278102
+  iter 11  rms_residual_GN=2.875278102  step=0.000007500 rms_residuals_MCR=2.875276210
+  iter 12  rms_residual_GN=2.875276210  step=0.000002579 rms_residuals_MCR=2.875275574
+  iter 13  rms_residual_GN=2.875275574  step=0.000000891 rms_residuals_MCR=2.875275359
+  iter 14  rms_residual_GN=2.875275359  step=0.000000309 rms_residuals_MCR=2.875275287
+  iter 15  rms_residual_GN=2.875275287  step=0.000000107 rms_residuals_MCR=2.875275262
+  iter 16  rms_residual_GN=2.875275262  step=0.000000037 rms_residuals_MCR=2.875275253
+  iter 17  rms_residual_GN=2.875275253  step=0.000000013 rms_residuals_MCR=2.875275251
+  iter 18  rms_residual_GN=2.875275251  step=0.000000005 rms_residuals_MCR=2.875275250
+Done.
+Final RMS distance residual   : 2.875275
+occluded anchors: 0/20
+
+=== D5: setup ===
+Initial guess: [234.1958  86.8793 120.0319]
+Known distances:    [16.4424 16.5244 29.5936 33.269  33.9436 32.5661 45.6695 45.3317 45.3125
+ 51.9968 59.3976 62.4014 62.4897 60.0987 65.4101 62.503  69.7699 69.9063
+ 75.9329 92.4895]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=3.43839328385  rms_residual_GN=2.162307571
+  iter  2  delta_norm=0.50435223713  rms_residual_GN=2.016815578
+  iter  3  delta_norm=0.03571793087  rms_residual_GN=2.011804745
+  iter  4  delta_norm=0.00305503693  rms_residual_GN=2.011789826
+  iter  5  delta_norm=0.00025919935  rms_residual_GN=2.011789718
+  iter  6  delta_norm=0.00002201422  rms_residual_GN=2.011789718
+  iter  7  delta_norm=0.00000186960  rms_residual_GN=2.011789718
+  iter  8  delta_norm=0.00000015878  rms_residual_GN=2.011789718
+  iter  9  delta_norm=0.00000001348  rms_residual_GN=2.011789718
+  iter 10  delta_norm=0.00000000115  rms_residual_GN=2.011789718
+  iter 11  delta_norm=0.00000000010  rms_residual_GN=2.011789718
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.054315871  step=0.026449497 rms_residuals_MCR=2.056947472
+  iter  2  rms_residual_GN=2.056947472  step=0.007535620 rms_residuals_MCR=2.057720021
+  iter  3  rms_residual_GN=2.057720021  step=0.002149041 rms_residuals_MCR=2.057942148
+  iter  4  rms_residual_GN=2.057942148  step=0.000613055 rms_residuals_MCR=2.058005649
+  iter  5  rms_residual_GN=2.058005649  step=0.000174904 rms_residuals_MCR=2.058023772
+  iter  6  rms_residual_GN=2.058023772  step=0.000049902 rms_residuals_MCR=2.058028943
+  iter  7  rms_residual_GN=2.058028943  step=0.000014238 rms_residuals_MCR=2.058030417
+  iter  8  rms_residual_GN=2.058030417  step=0.000004063 rms_residuals_MCR=2.058030838
+  iter  9  rms_residual_GN=2.058030838  step=0.000001159 rms_residuals_MCR=2.058030958
+  iter 10  rms_residual_GN=2.058030958  step=0.000000331 rms_residuals_MCR=2.058030992
+  iter 11  rms_residual_GN=2.058030992  step=0.000000094 rms_residuals_MCR=2.058031002
+  iter 12  rms_residual_GN=2.058031002  step=0.000000027 rms_residuals_MCR=2.058031005
+  iter 13  rms_residual_GN=2.058031005  step=0.000000008 rms_residuals_MCR=2.058031006
+Done.
+Final RMS distance residual   : 2.058031
+occluded anchors: 0/20
+
+=== D9: setup ===
+Initial guess: [224.7882 114.9715  86.4502]
+Known distances:    [ 18.9767  17.7569  19.0275  29.9752  29.8734  34.0032  35.4151  31.5986
+  34.5487  45.7348  45.4173  57.8273  61.3897  67.3076  73.7665  71.1864
+  76.8751  99.0157 103.6637 102.619 ]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=1.08474295856  rms_residual_GN=2.293178699
+  iter  2  delta_norm=0.03783363401  rms_residual_GN=2.241822104
+  iter  3  delta_norm=0.00178105301  rms_residual_GN=2.241739133
+  iter  4  delta_norm=0.00009322737  rms_residual_GN=2.241738949
+  iter  5  delta_norm=0.00000535809  rms_residual_GN=2.241738948
+  iter  6  delta_norm=0.00000035560  rms_residual_GN=2.241738948
+  iter  7  delta_norm=0.00000002659  rms_residual_GN=2.241738948
+  iter  8  delta_norm=0.00000000213  rms_residual_GN=2.241738948
+  iter  9  delta_norm=0.00000000018  rms_residual_GN=2.241738948
+  iter 10  delta_norm=0.00000000001  rms_residual_GN=2.241738948
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.275634736  step=0.030877940 rms_residuals_MCR=2.272853850
+  iter  2  rms_residual_GN=2.272853850  step=0.008602240 rms_residuals_MCR=2.272115714
+  iter  3  rms_residual_GN=2.272115714  step=0.002401857 rms_residuals_MCR=2.271913038
+  iter  4  rms_residual_GN=2.271913038  step=0.000672306 rms_residuals_MCR=2.271856813
+  iter  5  rms_residual_GN=2.271856813  step=0.000188787 rms_residuals_MCR=2.271841160
+  iter  6  rms_residual_GN=2.271841160  step=0.000053235 rms_residuals_MCR=2.271836795
+  iter  7  rms_residual_GN=2.271836795  step=0.000015093 rms_residuals_MCR=2.271835577
+  iter  8  rms_residual_GN=2.271835577  step=0.000004309 rms_residuals_MCR=2.271835236
+  iter  9  rms_residual_GN=2.271835236  step=0.000001241 rms_residuals_MCR=2.271835141
+  iter 10  rms_residual_GN=2.271835141  step=0.000000361 rms_residuals_MCR=2.271835114
+  iter 11  rms_residual_GN=2.271835114  step=0.000000106 rms_residuals_MCR=2.271835106
+  iter 12  rms_residual_GN=2.271835106  step=0.000000032 rms_residuals_MCR=2.271835104
+  iter 13  rms_residual_GN=2.271835104  step=0.000000010 rms_residuals_MCR=2.271835104
+Done.
+Final RMS distance residual   : 2.271835
+occluded anchors: 1/20
+
+=== D12: setup ===
+Initial guess: [237.9763 117.0101 136.0508]
+Known distances:    [18.0866 17.4002 17.07   17.2651 29.4759 31.2008 30.0393 34.5594 33.4033
+ 36.5925 35.4558 45.0162 46.5929 58.5588 58.8974 61.617  64.1782 62.4805
+ 61.0286 68.4198]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=1.27510867402  rms_residual_GN=2.323783449
+  iter  2  delta_norm=0.18712903703  rms_residual_GN=2.213645219
+  iter  3  delta_norm=0.03870623157  rms_residual_GN=2.213061091
+  iter  4  delta_norm=0.00833518389  rms_residual_GN=2.213039352
+  iter  5  delta_norm=0.00178247599  rms_residual_GN=2.213038349
+  iter  6  delta_norm=0.00038173422  rms_residual_GN=2.213038304
+  iter  7  delta_norm=0.00008171866  rms_residual_GN=2.213038302
+  iter  8  delta_norm=0.00001749464  rms_residual_GN=2.213038302
+  iter  9  delta_norm=0.00000374524  rms_residual_GN=2.213038302
+  iter 10  delta_norm=0.00000080178  rms_residual_GN=2.213038302
+  iter 11  delta_norm=0.00000017164  rms_residual_GN=2.213038302
+  iter 12  delta_norm=0.00000003675  rms_residual_GN=2.213038302
+  iter 13  delta_norm=0.00000000787  rms_residual_GN=2.213038302
+  iter 14  delta_norm=0.00000000168  rms_residual_GN=2.213038302
+  iter 15  delta_norm=0.00000000036  rms_residual_GN=2.213038302
+  iter 16  delta_norm=0.00000000008  rms_residual_GN=2.213038302
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.380684751  step=0.042831011 rms_residuals_MCR=2.380532696
+  iter  2  rms_residual_GN=2.380532696  step=0.011006211 rms_residuals_MCR=2.380553942
+  iter  3  rms_residual_GN=2.380553942  step=0.002857023 rms_residuals_MCR=2.380566696
+  iter  4  rms_residual_GN=2.380566696  step=0.000749925 rms_residuals_MCR=2.380571395
+  iter  5  rms_residual_GN=2.380571395  step=0.000199239 rms_residuals_MCR=2.380572964
+  iter  6  rms_residual_GN=2.380572964  step=0.000053608 rms_residuals_MCR=2.380573468
+  iter  7  rms_residual_GN=2.380573468  step=0.000014608 rms_residuals_MCR=2.380573627
+  iter  8  rms_residual_GN=2.380573627  step=0.000004029 rms_residuals_MCR=2.380573676
+  iter  9  rms_residual_GN=2.380573676  step=0.000001123 rms_residuals_MCR=2.380573691
+  iter 10  rms_residual_GN=2.380573691  step=0.000000316 rms_residuals_MCR=2.380573695
+  iter 11  rms_residual_GN=2.380573695  step=0.000000090 rms_residuals_MCR=2.380573697
+  iter 12  rms_residual_GN=2.380573697  step=0.000000026 rms_residuals_MCR=2.380573697
+  iter 13  rms_residual_GN=2.380573697  step=0.000000007 rms_residuals_MCR=2.380573697
+Done.
+Final RMS distance residual   : 2.380574
+occluded anchors: 0/20
+
+=== D14: setup ===
+Initial guess: [226.847  119.1503 168.627 ]
+Known distances:    [17.009  17.5365 29.1874 30.7258 34.6902 34.5754 34.0157 39.4542 44.6732
+ 45.7067 51.0853 58.2024 60.7569 67.2909 72.5846 72.6226 86.7834 87.1455
+ 91.0018 96.906 ]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=0.69873547129  rms_residual_GN=2.232180705
+  iter  2  delta_norm=0.23857765500  rms_residual_GN=2.198095783
+  iter  3  delta_norm=0.12539032650  rms_residual_GN=2.196819656
+  iter  4  delta_norm=0.06669167178  rms_residual_GN=2.196470112
+  iter  5  delta_norm=0.03546243059  rms_residual_GN=2.196370904
+  iter  6  delta_norm=0.01884912019  rms_residual_GN=2.196342813
+  iter  7  delta_norm=0.01001650763  rms_residual_GN=2.196334870
+  iter  8  delta_norm=0.00532218107  rms_residual_GN=2.196332626
+  iter  9  delta_norm=0.00282771304  rms_residual_GN=2.196331993
+  iter 10  delta_norm=0.00150233341  rms_residual_GN=2.196331814
+  iter 11  delta_norm=0.00079815916  rms_residual_GN=2.196331763
+  iter 12  delta_norm=0.00042404166  rms_residual_GN=2.196331749
+  iter 13  delta_norm=0.00022528140  rms_residual_GN=2.196331745
+  iter 14  delta_norm=0.00011968535  rms_residual_GN=2.196331744
+  iter 15  delta_norm=0.00006358519  rms_residual_GN=2.196331744
+  iter 16  delta_norm=0.00003378086  rms_residual_GN=2.196331743
+  iter 17  delta_norm=0.00001794672  rms_residual_GN=2.196331743
+  iter 18  delta_norm=0.00000953454  rms_residual_GN=2.196331743
+  iter 19  delta_norm=0.00000506540  rms_residual_GN=2.196331743
+  iter 20  delta_norm=0.00000269109  rms_residual_GN=2.196331743
+  iter 21  delta_norm=0.00000142969  rms_residual_GN=2.196331743
+  iter 22  delta_norm=0.00000075955  rms_residual_GN=2.196331743
+  iter 23  delta_norm=0.00000040353  rms_residual_GN=2.196331743
+  iter 24  delta_norm=0.00000021438  rms_residual_GN=2.196331743
+  iter 25  delta_norm=0.00000011389  rms_residual_GN=2.196331743
+  iter 26  delta_norm=0.00000006051  rms_residual_GN=2.196331743
+  iter 27  delta_norm=0.00000003215  rms_residual_GN=2.196331743
+  iter 28  delta_norm=0.00000001708  rms_residual_GN=2.196331743
+  iter 29  delta_norm=0.00000000907  rms_residual_GN=2.196331743
+  iter 30  delta_norm=0.00000000482  rms_residual_GN=2.196331743
+  iter 31  delta_norm=0.00000000256  rms_residual_GN=2.196331743
+  iter 32  delta_norm=0.00000000136  rms_residual_GN=2.196331743
+  iter 33  delta_norm=0.00000000072  rms_residual_GN=2.196331743
+  iter 34  delta_norm=0.00000000038  rms_residual_GN=2.196331743
+  iter 35  delta_norm=0.00000000020  rms_residual_GN=2.196331743
+  iter 36  delta_norm=0.00000000011  rms_residual_GN=2.196331743
+  iter 37  delta_norm=0.00000000006  rms_residual_GN=2.196331743
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.333190087  step=0.299234230 rms_residuals_MCR=2.282653442
+  iter  2  rms_residual_GN=2.282653442  step=0.114119631 rms_residuals_MCR=2.267626389
+  iter  3  rms_residual_GN=2.267626389  step=0.043794614 rms_residuals_MCR=2.262498894
+  iter  4  rms_residual_GN=2.262498894  step=0.016847743 rms_residuals_MCR=2.260621947
+  iter  5  rms_residual_GN=2.260621947  step=0.006487424 rms_residuals_MCR=2.259913557
+  iter  6  rms_residual_GN=2.259913557  step=0.002498960 rms_residuals_MCR=2.259642866
+  iter  7  rms_residual_GN=2.259642866  step=0.000962732 rms_residuals_MCR=2.259538924
+  iter  8  rms_residual_GN=2.259538924  step=0.000370914 rms_residuals_MCR=2.259498934
+  iter  9  rms_residual_GN=2.259498934  step=0.000142905 rms_residuals_MCR=2.259483537
+  iter 10  rms_residual_GN=2.259483537  step=0.000055058 rms_residuals_MCR=2.259477608
+  iter 11  rms_residual_GN=2.259477608  step=0.000021213 rms_residuals_MCR=2.259475324
+  iter 12  rms_residual_GN=2.259475324  step=0.000008173 rms_residuals_MCR=2.259474444
+  iter 13  rms_residual_GN=2.259474444  step=0.000003149 rms_residuals_MCR=2.259474105
+  iter 14  rms_residual_GN=2.259474105  step=0.000001213 rms_residuals_MCR=2.259473974
+  iter 15  rms_residual_GN=2.259473974  step=0.000000467 rms_residuals_MCR=2.259473924
+  iter 16  rms_residual_GN=2.259473924  step=0.000000180 rms_residuals_MCR=2.259473905
+  iter 17  rms_residual_GN=2.259473905  step=0.000000069 rms_residuals_MCR=2.259473897
+  iter 18  rms_residual_GN=2.259473897  step=0.000000027 rms_residuals_MCR=2.259473894
+  iter 19  rms_residual_GN=2.259473894  step=0.000000010 rms_residuals_MCR=2.259473893
+  iter 20  rms_residual_GN=2.259473893  step=0.000000004 rms_residuals_MCR=2.259473893
+Done.
+Final RMS distance residual   : 2.259474
+occluded anchors: 1/20
+
+=== D15: setup ===
+Initial guess: [213.573  120.9135 182.8057]
+Known distances:    [ 16.9299  30.1477  30.9013  30.4259  36.6493  45.7778  44.2889  47.5039
+  60.8746  61.5144  68.7097  72.5453  76.9618  83.6611  86.5395  87.7025
+ 100.92    99.9037 104.3642 109.9278]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=1.36797502965  rms_residual_GN=2.193357294
+  iter  2  delta_norm=0.67306041876  rms_residual_GN=2.145540868
+  iter  3  delta_norm=0.35800236723  rms_residual_GN=2.138430885
+  iter  4  delta_norm=0.19143062036  rms_residual_GN=2.136435208
+  iter  5  delta_norm=0.10268923393  rms_residual_GN=2.135864523
+  iter  6  delta_norm=0.05517000641  rms_residual_GN=2.135700208
+  iter  7  delta_norm=0.02966245767  rms_residual_GN=2.135652759
+  iter  8  delta_norm=0.01595427126  rms_residual_GN=2.135639038
+  iter  9  delta_norm=0.00858288231  rms_residual_GN=2.135635068
+  iter 10  delta_norm=0.00461779850  rms_residual_GN=2.135633919
+  iter 11  delta_norm=0.00248462651  rms_residual_GN=2.135633586
+  iter 12  delta_norm=0.00133690413  rms_residual_GN=2.135633490
+  iter 13  delta_norm=0.00071936019  rms_residual_GN=2.135633462
+  iter 14  delta_norm=0.00038707603  rms_residual_GN=2.135633454
+  iter 15  delta_norm=0.00020828030  rms_residual_GN=2.135633452
+  iter 16  delta_norm=0.00011207304  rms_residual_GN=2.135633451
+  iter 17  delta_norm=0.00006030520  rms_residual_GN=2.135633451
+  iter 18  delta_norm=0.00003244955  rms_residual_GN=2.135633451
+  iter 19  delta_norm=0.00001746074  rms_residual_GN=2.135633451
+  iter 20  delta_norm=0.00000939543  rms_residual_GN=2.135633451
+  iter 21  delta_norm=0.00000505558  rms_residual_GN=2.135633451
+  iter 22  delta_norm=0.00000272035  rms_residual_GN=2.135633451
+  iter 23  delta_norm=0.00000146379  rms_residual_GN=2.135633451
+  iter 24  delta_norm=0.00000078765  rms_residual_GN=2.135633451
+  iter 25  delta_norm=0.00000042383  rms_residual_GN=2.135633451
+  iter 26  delta_norm=0.00000022806  rms_residual_GN=2.135633451
+  iter 27  delta_norm=0.00000012271  rms_residual_GN=2.135633451
+  iter 28  delta_norm=0.00000006603  rms_residual_GN=2.135633451
+  iter 29  delta_norm=0.00000003553  rms_residual_GN=2.135633451
+  iter 30  delta_norm=0.00000001912  rms_residual_GN=2.135633451
+  iter 31  delta_norm=0.00000001029  rms_residual_GN=2.135633451
+  iter 32  delta_norm=0.00000000554  rms_residual_GN=2.135633451
+  iter 33  delta_norm=0.00000000298  rms_residual_GN=2.135633451
+  iter 34  delta_norm=0.00000000160  rms_residual_GN=2.135633451
+  iter 35  delta_norm=0.00000000086  rms_residual_GN=2.135633451
+  iter 36  delta_norm=0.00000000046  rms_residual_GN=2.135633451
+  iter 37  delta_norm=0.00000000025  rms_residual_GN=2.135633451
+  iter 38  delta_norm=0.00000000013  rms_residual_GN=2.135633451
+  iter 39  delta_norm=0.00000000007  rms_residual_GN=2.135633451
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.502010783  step=0.465378391 rms_residuals_MCR=2.373283782
+  iter  2  rms_residual_GN=2.373283782  step=0.199795748 rms_residuals_MCR=2.327180724
+  iter  3  rms_residual_GN=2.327180724  step=0.086549798 rms_residuals_MCR=2.309076690
+  iter  4  rms_residual_GN=2.309076690  step=0.037691012 rms_residuals_MCR=2.301568437
+  iter  5  rms_residual_GN=2.301568437  step=0.016465081 rms_residuals_MCR=2.298365646
+  iter  6  rms_residual_GN=2.298365646  step=0.007206305 rms_residuals_MCR=2.296980341
+  iter  7  rms_residual_GN=2.296980341  step=0.003157746 rms_residuals_MCR=2.296377019
+  iter  8  rms_residual_GN=2.296377019  step=0.001384762 rms_residuals_MCR=2.296113335
+  iter  9  rms_residual_GN=2.296113335  step=0.000607566 rms_residuals_MCR=2.295997871
+  iter 10  rms_residual_GN=2.295997871  step=0.000266662 rms_residuals_MCR=2.295947256
+  iter 11  rms_residual_GN=2.295947256  step=0.000117066 rms_residuals_MCR=2.295925053
+  iter 12  rms_residual_GN=2.295925053  step=0.000051401 rms_residuals_MCR=2.295915309
+  iter 13  rms_residual_GN=2.295915309  step=0.000022572 rms_residuals_MCR=2.295911032
+  iter 14  rms_residual_GN=2.295911032  step=0.000009913 rms_residuals_MCR=2.295909155
+  iter 15  rms_residual_GN=2.295909155  step=0.000004354 rms_residuals_MCR=2.295908330
+  iter 16  rms_residual_GN=2.295908330  step=0.000001912 rms_residuals_MCR=2.295907968
+  iter 17  rms_residual_GN=2.295907968  step=0.000000840 rms_residuals_MCR=2.295907809
+  iter 18  rms_residual_GN=2.295907809  step=0.000000369 rms_residuals_MCR=2.295907739
+  iter 19  rms_residual_GN=2.295907739  step=0.000000162 rms_residuals_MCR=2.295907708
+  iter 20  rms_residual_GN=2.295907708  step=0.000000071 rms_residuals_MCR=2.295907695
+  iter 21  rms_residual_GN=2.295907695  step=0.000000031 rms_residuals_MCR=2.295907689
+  iter 22  rms_residual_GN=2.295907689  step=0.000000014 rms_residuals_MCR=2.295907686
+  iter 23  rms_residual_GN=2.295907686  step=0.000000006 rms_residuals_MCR=2.295907685
+Done.
+Final RMS distance residual   : 2.295908
+occluded anchors: 1/20
+
+=== D16: setup ===
+Initial guess: [197.8757 122.2997 193.5262]
+Known distances:    [ 19.1563  32.7901  36.916   46.9743  54.9178  58.2338  62.4664  62.6882
+  76.3109  77.8032  86.8539  85.1627  92.2176  98.7273  99.8486 101.8263
+ 111.7214 113.7961 116.3993 121.4365]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=3.67400571135  rms_residual_GN=1.970364341
+  iter  2  delta_norm=0.11581144866  rms_residual_GN=1.788209306
+  iter  3  delta_norm=0.00172979489  rms_residual_GN=1.785448755
+  iter  4  delta_norm=0.00007452159  rms_residual_GN=1.785448701
+  iter  5  delta_norm=0.00000308672  rms_residual_GN=1.785448701
+  iter  6  delta_norm=0.00000012768  rms_residual_GN=1.785448701
+  iter  7  delta_norm=0.00000000528  rms_residual_GN=1.785448701
+  iter  8  delta_norm=0.00000000022  rms_residual_GN=1.785448701
+  iter  9  delta_norm=0.00000000001  rms_residual_GN=1.785448701
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=1.891378585  step=0.007713646 rms_residuals_MCR=1.890086038
+  iter  2  rms_residual_GN=1.890086038  step=0.002353202 rms_residuals_MCR=1.889696889
+  iter  3  rms_residual_GN=1.889696889  step=0.000718056 rms_residuals_MCR=1.889579295
+  iter  4  rms_residual_GN=1.889579295  step=0.000219165 rms_residuals_MCR=1.889543716
+  iter  5  rms_residual_GN=1.889543716  step=0.000066912 rms_residuals_MCR=1.889532945
+  iter  6  rms_residual_GN=1.889532945  step=0.000020434 rms_residuals_MCR=1.889529684
+  iter  7  rms_residual_GN=1.889529684  step=0.000006242 rms_residuals_MCR=1.889528697
+  iter  8  rms_residual_GN=1.889528697  step=0.000001907 rms_residuals_MCR=1.889528397
+  iter  9  rms_residual_GN=1.889528397  step=0.000000583 rms_residuals_MCR=1.889528307
+  iter 10  rms_residual_GN=1.889528307  step=0.000000178 rms_residuals_MCR=1.889528279
+  iter 11  rms_residual_GN=1.889528279  step=0.000000054 rms_residuals_MCR=1.889528271
+  iter 12  rms_residual_GN=1.889528271  step=0.000000017 rms_residuals_MCR=1.889528269
+  iter 13  rms_residual_GN=1.889528269  step=0.000000005 rms_residuals_MCR=1.889528268
+Done.
+Final RMS distance residual   : 1.889528
+occluded anchors: 0/20
+
+=== D18: setup ===
+Initial guess: [219.8875 149.8643 167.8783]
+Known distances:    [ 18.2183  18.3647  19.8253  32.8593  38.1284  49.7851  47.8193  51.7458
+  61.3539  63.9756  62.2771  63.1231  67.2249  71.2498  75.7648  81.86
+  90.7029  91.1433 101.3423 102.1209]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=3.52922328883  rms_residual_GN=1.633668283
+  iter  2  delta_norm=0.27007560761  rms_residual_GN=1.253838477
+  iter  3  delta_norm=0.01762486841  rms_residual_GN=1.248426071
+  iter  4  delta_norm=0.00121180499  rms_residual_GN=1.248419385
+  iter  5  delta_norm=0.00008278447  rms_residual_GN=1.248419356
+  iter  6  delta_norm=0.00000564598  rms_residual_GN=1.248419356
+  iter  7  delta_norm=0.00000038498  rms_residual_GN=1.248419356
+  iter  8  delta_norm=0.00000002625  rms_residual_GN=1.248419356
+  iter  9  delta_norm=0.00000000179  rms_residual_GN=1.248419356
+  iter 10  delta_norm=0.00000000012  rms_residual_GN=1.248419356
+  iter 11  delta_norm=0.00000000001  rms_residual_GN=1.248419356
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=1.435575018  step=0.057968007 rms_residuals_MCR=1.420400603
+  iter  2  rms_residual_GN=1.420400603  step=0.017984038 rms_residuals_MCR=1.415950270
+  iter  3  rms_residual_GN=1.415950270  step=0.005578963 rms_residuals_MCR=1.414594015
+  iter  4  rms_residual_GN=1.414594015  step=0.001730659 rms_residuals_MCR=1.414175376
+  iter  5  rms_residual_GN=1.414175376  step=0.000536870 rms_residuals_MCR=1.414045629
+  iter  6  rms_residual_GN=1.414045629  step=0.000166544 rms_residuals_MCR=1.414005366
+  iter  7  rms_residual_GN=1.414005366  step=0.000051664 rms_residuals_MCR=1.413992867
+  iter  8  rms_residual_GN=1.413992867  step=0.000016027 rms_residuals_MCR=1.413988986
+  iter  9  rms_residual_GN=1.413988986  step=0.000004972 rms_residuals_MCR=1.413987781
+  iter 10  rms_residual_GN=1.413987781  step=0.000001542 rms_residuals_MCR=1.413987407
+  iter 11  rms_residual_GN=1.413987407  step=0.000000478 rms_residuals_MCR=1.413987291
+  iter 12  rms_residual_GN=1.413987291  step=0.000000148 rms_residuals_MCR=1.413987255
+  iter 13  rms_residual_GN=1.413987255  step=0.000000046 rms_residuals_MCR=1.413987244
+  iter 14  rms_residual_GN=1.413987244  step=0.000000014 rms_residuals_MCR=1.413987240
+  iter 15  rms_residual_GN=1.413987240  step=0.000000004 rms_residuals_MCR=1.413987239
+Done.
+Final RMS distance residual   : 1.413987
+occluded anchors: 3/20
+
+=== D20: setup ===
+Initial guess: [232.693  147.8093 134.9489]
+Known distances:    [17.4128 17.1816 18.3102 17.7562 29.4643 30.5255 34.1956 35.9684 34.8573
+ 46.3107 52.6401 51.0521 60.1644 60.8825 61.5911 68.8532 72.2604 73.1683
+ 76.6035 78.3397]
+
+Step 1. Free-space trilateration (Gauss-Newton)
+  iter  1  delta_norm=3.24675180741  rms_residual_GN=2.251102564
+  iter  2  delta_norm=1.35820850488  rms_residual_GN=2.117999047
+  iter  3  delta_norm=0.48427039035  rms_residual_GN=2.099952920
+  iter  4  delta_norm=0.19268976112  rms_residual_GN=2.098108586
+  iter  5  delta_norm=0.07429306756  rms_residual_GN=2.097803004
+  iter  6  delta_norm=0.02904550259  rms_residual_GN=2.097758921
+  iter  7  delta_norm=0.01129693812  rms_residual_GN=2.097752109
+  iter  8  delta_norm=0.00440286364  rms_residual_GN=2.097751083
+  iter  9  delta_norm=0.00171460691  rms_residual_GN=2.097750927
+  iter 10  delta_norm=0.00066792661  rms_residual_GN=2.097750904
+  iter 11  delta_norm=0.00026015996  rms_residual_GN=2.097750900
+  iter 12  delta_norm=0.00010133807  rms_residual_GN=2.097750899
+  iter 13  delta_norm=0.00003947270  rms_residual_GN=2.097750899
+  iter 14  delta_norm=0.00001537532  rms_residual_GN=2.097750899
+  iter 15  delta_norm=0.00000598894  rms_residual_GN=2.097750899
+  iter 16  delta_norm=0.00000233280  rms_residual_GN=2.097750899
+  iter 17  delta_norm=0.00000090866  rms_residual_GN=2.097750899
+  iter 18  delta_norm=0.00000035394  rms_residual_GN=2.097750899
+  iter 19  delta_norm=0.00000013787  rms_residual_GN=2.097750899
+  iter 20  delta_norm=0.00000005370  rms_residual_GN=2.097750899
+  iter 21  delta_norm=0.00000002092  rms_residual_GN=2.097750899
+  iter 22  delta_norm=0.00000000815  rms_residual_GN=2.097750899
+  iter 23  delta_norm=0.00000000317  rms_residual_GN=2.097750899
+  iter 24  delta_norm=0.00000000124  rms_residual_GN=2.097750899
+  iter 25  delta_norm=0.00000000048  rms_residual_GN=2.097750899
+  iter 26  delta_norm=0.00000000019  rms_residual_GN=2.097750899
+  iter 27  delta_norm=0.00000000007  rms_residual_GN=2.097750899
+Done.
+
+Step 2. Manifold-constrained refinement: alternate GN step <-> project onto mesh
+  iter  1  rms_residual_GN=2.317750089  step=0.274430656 rms_residuals_MCR=2.364840926
+  iter  2  rms_residual_GN=2.364840926  step=0.046072143 rms_residuals_MCR=2.373416786
+  iter  3  rms_residual_GN=2.373416786  step=0.007891964 rms_residuals_MCR=2.374889883
+  iter  4  rms_residual_GN=2.374889883  step=0.001373891 rms_residuals_MCR=2.375140847
+  iter  5  rms_residual_GN=2.375140847  step=0.000247334 rms_residuals_MCR=2.375183570
+  iter  6  rms_residual_GN=2.375183570  step=0.000047977 rms_residuals_MCR=2.375190850
+  iter  7  rms_residual_GN=2.375190850  step=0.000010610 rms_residuals_MCR=2.375192094
+  iter  8  rms_residual_GN=2.375192094  step=0.000002725 rms_residuals_MCR=2.375192307
+  iter  9  rms_residual_GN=2.375192307  step=0.000000778 rms_residuals_MCR=2.375192344
+  iter 10  rms_residual_GN=2.375192344  step=0.000000234 rms_residuals_MCR=2.375192350
+  iter 11  rms_residual_GN=2.375192350  step=0.000000072 rms_residuals_MCR=2.375192351
+  iter 12  rms_residual_GN=2.375192351  step=0.000000022 rms_residuals_MCR=2.375192352
+  iter 13  rms_residual_GN=2.375192352  step=0.000000007 rms_residuals_MCR=2.375192352
+Done.
+Final RMS distance residual   : 2.375192
+occluded anchors: 0/20
+

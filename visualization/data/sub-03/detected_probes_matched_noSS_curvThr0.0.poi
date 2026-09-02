@@ -1,19 +1,26 @@
 
 FileVersion:                   2
 
-FromMeshFile:                  "C:/Users/assun/Documents/GitHub/DOTImager/example_data/sub-03/anat/sub-03_standard_SPH.srf"
+FromMeshFile:                  "C:/Users/assun/Documents/GitHub/MRIProbeDetection/visualization/data/sub-03/sub-03_standard_SPH.srf"
 
 NrOfMeshVertices:              10242
 
-NrOfPOIs:                      26
+NrOfPOIs:                      27
 
+
+NameOfPOI:  "D10"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4663
+NrOfVertices: 1
+4663
 
 NameOfPOI:  "D3"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
-LabelVertex:  5138
+LabelVertex:  5137
 NrOfVertices: 1
-5138
+5137
 
 NameOfPOI:  "D20"
 InfoTextFile:  ""
@@ -36,12 +43,12 @@ LabelVertex:  4889
 NrOfVertices: 1
 4889
 
-NameOfPOI:  "D8"
+NameOfPOI:  "D9"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
-LabelVertex:  312
+LabelVertex:  4854
 NrOfVertices: 1
-312
+4854
 
 NameOfPOI:  "D17"
 InfoTextFile:  ""
@@ -71,6 +78,13 @@ LabelVertex:  1220
 NrOfVertices: 1
 1220
 
+NameOfPOI:  "D22"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  4880
+NrOfVertices: 1
+4880
+
 NameOfPOI:  "D18"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
@@ -95,9 +109,9 @@ NrOfVertices: 1
 NameOfPOI:  "S9"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
-LabelVertex:  5110
+LabelVertex:  5111
 NrOfVertices: 1
-5110
+5111
 
 NameOfPOI:  "D4"
 InfoTextFile:  ""
@@ -134,6 +148,20 @@ LabelVertex:  5288
 NrOfVertices: 1
 5288
 
+NameOfPOI:  "D14"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  5252
+NrOfVertices: 1
+5252
+
+NameOfPOI:  "D1"
+InfoTextFile:  ""
+ColorOfPOI: 33 120 255
+LabelVertex:  6794
+NrOfVertices: 1
+6794
+
 NameOfPOI:  "D6"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
@@ -148,26 +176,12 @@ LabelVertex:  4561
 NrOfVertices: 1
 4561
 
-NameOfPOI:  "D10"
+NameOfPOI:  "S15"
 InfoTextFile:  ""
 ColorOfPOI: 33 120 255
-LabelVertex:  4663
+LabelVertex:  4905
 NrOfVertices: 1
-4663
-
-NameOfPOI:  "D9"
-InfoTextFile:  ""
-ColorOfPOI: 33 120 255
-LabelVertex:  4854
-NrOfVertices: 1
-4854
-
-NameOfPOI:  "D22"
-InfoTextFile:  ""
-ColorOfPOI: 33 120 255
-LabelVertex:  4880
-NrOfVertices: 1
-4880
+4905
 
 NameOfPOI:  "D15"
 InfoTextFile:  ""
@@ -175,13 +189,6 @@ ColorOfPOI: 33 120 255
 LabelVertex:  5061
 NrOfVertices: 1
 5061
-
-NameOfPOI:  "D1"
-InfoTextFile:  ""
-ColorOfPOI: 33 120 255
-LabelVertex:  6794
-NrOfVertices: 1
-6794
 
 NameOfPOI:  "D7"
 InfoTextFile:  ""

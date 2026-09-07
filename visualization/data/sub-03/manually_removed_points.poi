@@ -1,7 +1,7 @@
 
 FileVersion:                   2
 
-FromMeshFile:                  "C:/Users/assun/Documents/GitHub/MRIProbeDetection/visualization/data/sub-03/sub-03_standard_SPH.srf"
+FromMeshFile:                  "C:/Users/assun/Documents/GitHub/MRIProbeDetection/visualization/data/sub-03_standard_SPH.srf"
 
 NrOfMeshVertices:              10242
 
